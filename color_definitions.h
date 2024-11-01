@@ -11,6 +11,11 @@ typedef struct {
     enum MinorColor minorColor;
 } ColorPair;
 
+// Global variables for color counts and size
+extern const int numberOfMajorColors;
+extern const int numberOfMinorColors;
+extern const int MAX_COLORPAIR_NAME_CHARS;
+
 // Function prototypes
 void ColorPairToString(const ColorPair* colorPair, char* buffer);
 ColorPair GetColorFromPairNumber(int pairNumber);

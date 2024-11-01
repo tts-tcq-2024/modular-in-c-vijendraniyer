@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "color_definitions.h"
-#include "color_reference.h"  // Include the header for PrintColorManual
+#include "color_reference.h"  // Include the header for PrintColorReference
 
-void PrintColorManual() {
+void PrintColorReference() {  // Renamed back to old name
     printf("Color Pair Manual:\n");
     for (int i = 1; i <= numberOfMajorColors * numberOfMinorColors; i++) {
         ColorPair colorPair = GetColorFromPairNumber(i);

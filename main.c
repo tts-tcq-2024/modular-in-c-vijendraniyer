@@ -18,6 +18,6 @@ void runTests() {
 int main() {
     runTests();
     printf("All tests passed!\n");
-    PrintColorManual();
+    PrintColorReference();  // Updated to the old name
     return 0;
 }

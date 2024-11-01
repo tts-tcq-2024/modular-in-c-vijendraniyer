@@ -2,6 +2,6 @@
 #define COLOR_REFERENCE_H
 
 // Function prototype for printing the color manual
-void PrintColorManual();
+void PrintColorReference();
 
 #endif // COLOR_REFERENCE_H
